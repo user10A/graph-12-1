@@ -1,0 +1,16 @@
+package graph.dto.request;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+@Builder
+public class CarRequest {
+    private String name;
+    private String email;
+    private String model;
+    private String color;
+    private Integer price;
+}
